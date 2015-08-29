@@ -31,3 +31,8 @@ header {
     .vyrobek .descrition {
         display: none;
     }
+
+
+#vyrobek-detail {
+    display: none;
+}
