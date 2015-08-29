@@ -16,7 +16,7 @@ header {
 
 menu ul {
     font-family: 'Great Vibes', cursive;
-    font-size: 36px;
+    font-size: 30px;
 }
 
     menu ul li a {
@@ -60,9 +60,9 @@ menu ul {
     display: none;
 }
 
-#vyrobek-detail .title {
-    display: block;
-}
+    #vyrobek-detail .title {
+        display: block;
+    }
 
 footer {
     width: 100%;
@@ -70,8 +70,19 @@ footer {
     background: #5D403A;
 }
 
+
     footer img.fler {
         width: 80px;
         height: auto;
         margin: 5px 50px;
     }
+
+    footer a {
+        color: white;
+        margin:150px;
+        
+    }
+
+        footer a:hover {
+            color: #fc5d2e;
+        }
