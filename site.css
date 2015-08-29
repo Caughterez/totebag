@@ -11,3 +11,11 @@ header {
     height: 80px;
     width: 800px;   
 }
+
+.vyrobek {
+    background: red;
+    height: auto;
+    margin: 5px;
+    min-height: 80px;
+    max-height: 120px
+}
