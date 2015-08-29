@@ -2,34 +2,53 @@
 }
 
 header {
-    background: brown;
-    height: 100px;
+    background: #5D403A;
+    height: 180px;
 }
 
-#logo {
-    background: blue;
-    height: 80px;
-    width: 800px;
-}
-  ul {
-        font-family: 'Great Vibes', cursive;
-        font-size: 36px;
-        display: inline-block;
+    header img {
+        height: 180px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
+
+menu ul {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+}
+
+    menu ul li a {
+        color: #5D403A;
+    }
+
+        menu ul li a:hover, menu ul li a:focus {
+            color: #F33A03;
+            background: none;
+            background-color: white !important;
+        }
+
+.container-fluid {
+    min-height: 600px;
+}
+
 .vyrobek {
-    background: lightgoldenrodyellow;
-    height: auto;
     margin: 5px;
-    height: 300px;
+    border: solid #5D403A 1px;
+    height: 210px;
+    width: 210px;
+    padding: 0;
 }
 
     .vyrobek h3 {
-        font-size: 20px;
+        display: none;
     }
 
     .vyrobek img {
         height: 200px;
-        width: 100%;
+        width: 200px;
+        margin: 5px;
     }
 
     .vyrobek .descrition {
@@ -40,3 +59,19 @@ header {
 #vyrobek-detail {
     display: none;
 }
+
+#vyrobek-detail .title {
+    display: block;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: #5D403A;
+}
+
+    footer img.fler {
+        width: 80px;
+        height: auto;
+        margin: 5px 50px;
+    }
