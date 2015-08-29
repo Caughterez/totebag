@@ -11,7 +11,11 @@ header {
     height: 80px;
     width: 800px;
 }
-
+  ul {
+        font-family: 'Great Vibes', cursive;
+        font-size: 36px;
+        display: inline-block;
+    }
 .vyrobek {
     background: lightgoldenrodyellow;
     height: auto;
