@@ -31,3 +31,8 @@ header {
     .vyrobek .descrition {
         display: none;
     }
+  ul {
+        font-family: 'Great Vibes', cursive;
+        font-size: 36px;
+        display: inline-block;
+    }
