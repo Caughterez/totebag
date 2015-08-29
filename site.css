@@ -51,6 +51,10 @@ menu ul {
         margin: 5px;
     }
 
+    .vyrobek .image-1, .image-2, .image-3, .image-4 {
+        display: none;
+    }
+
     .vyrobek .descrition {
         display: none;
     }
@@ -58,11 +62,27 @@ menu ul {
 
 #vyrobek-detail {
     display: none;
+    font-family: 'Great Vibes', cursive;
 }
 
-#vyrobek-detail .title {
-    display: block;
-}
+    #vyrobek-detail .title {
+        /*display: block;*/
+        font-size: 36px;
+    }
+
+    #vyrobek-detail .main-image {
+        height: 500px;
+        width: 500px;
+    }
+
+    #vyrobek-detail .image-1 img, .image-2 img, .image-3 img, .image-4 img {
+        width: 171px;
+        height: 116px;
+    }
+
+    #vyrobek-detail .descrition {
+        font-size: 28px;
+    }
 
 footer {
     width: 100%;

@@ -4,6 +4,11 @@
     <title></title>
     <meta charset="utf-8" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <link href="gallery/photoswipe/photoswipe.css" rel="stylesheet" />
+    <link href="gallery/photoswipe/default-skin/default-skin.css" rel="stylesheet" />
+    <link href="gallery/photogallery.css" rel="stylesheet" />
+
     <link href="site.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
@@ -32,15 +37,45 @@
         </div>
 
         <div class="col-md-offset-1" id="vyrobek-detail">
-            <h3 class="title"></h3>
-            <img class="image" height="180"/>
-            <p class="descrition"></p>
+
+            <div class="row">
+
+                <h3 class="title"></h3>
+
+                <div id="photo-gallery" class="gallery" data-pswp-uid="1">
+                    <a class="main-image" href="https://farm4.staticflickr.com/3894/15008518202_c265dfa55f_h.jpg" data-size="1600x1600">
+                        <img src="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_m.jpg" alt="">
+                    </a>
+                    <a class="image-1" href="https://farm6.staticflickr.com/5591/15008867125_b61960af01_h.jpg" data-size="1600x1068">
+                        <img src="https://farm6.staticflickr.com/5591/15008867125_68a8ed88cc_m.jpg" alt="">
+                    </a>
+                    <a class="image-2" href="https://farm4.staticflickr.com/3902/14985871946_24f47d4b53_h.jpg" data-size="1600x1067">
+                        <img src="https://farm4.staticflickr.com/3902/14985871946_86abb8c56f_m.jpg" alt="">
+                    </a>
+                    <a class="image-3" href="https://farm6.staticflickr.com/5584/14985868676_b51baa4071_h.jpg" data-size="1600x1067">
+                        <img src="https://farm6.staticflickr.com/5584/14985868676_4b802b932a_m.jpg" alt="">
+                    </a>
+
+                    <a class="image-4" href="https://farm4.staticflickr.com/3920/15008465772_d50c8f0531_h.jpg" data-size="1600x1067">
+                        <img src="https://farm4.staticflickr.com/3920/15008465772_383e697089_m.jpg" alt="">
+                    </a>
+                </div>
+
+                <p class="descrition"></p>
+
+            </div>
         </div>
 
         <article class="col-md-offset-1" id="vyrobky">
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 vyrobek">
                 <h3 class="title">Košíček s látkovými květy</h3>
-                <img class="image" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
+
+                <img class="main-image" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
+                <img class="image-1" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
+                <img class="image-2" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
+                <img class="image-3" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
+                <img class="image-4" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg"/>
+
                 <p class="descrition">
                     Proutěný košíček plný látkových květů, s bavlněnou krajkou.
 
@@ -51,79 +86,64 @@
                     Výška cca 18cm, průměr cca 25cm.
                 </p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 vyrobek">
-                <h3 class="title">Košíček s látkovými květy</h3>
-                <img class="image" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
-                <p class="descrition">
-                    Proutěný košíček plný látkových květů, s bavlněnou krajkou.
-
-                    Květy jsou ručně šité, středy jsou dozdobeny různými aplikacemi.
-
-                    Organtinová mašlička, imitace štrasu, síťová krajka, mašličky, krajka.
-
-                    Výška cca 18cm, průměr cca 25cm.
-                </p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 vyrobek">
-                <h3 class="title">Košíček s látkovými květy</h3>
-                <img class="image" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
-                <p class="descrition">
-                    Proutěný košíček plný látkových květů, s bavlněnou krajkou.
-
-                    Květy jsou ručně šité, středy jsou dozdobeny různými aplikacemi.
-
-                    Organtinová mašlička, imitace štrasu, síťová krajka, mašličky, krajka.
-
-                    Výška cca 18cm, průměr cca 25cm.
-                </p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 vyrobek">
-                <h3 class="title">Košíček s látkovými květy</h3>
-                <img class="image" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
-                <p class="descrition">
-                    Proutěný košíček plný látkových květů, s bavlněnou krajkou.
-
-                    Květy jsou ručně šité, středy jsou dozdobeny různými aplikacemi.
-
-                    Organtinová mašlička, imitace štrasu, síťová krajka, mašličky, krajka.
-
-                    Výška cca 18cm, průměr cca 25cm.
-                </p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 vyrobek">
-                <h3 class="title">Košíček s látkovými květy</h3>
-                <img class="image" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
-                <p class="descrition">
-                    Proutěný košíček plný látkových květů, s bavlněnou krajkou.
-
-                    Květy jsou ručně šité, středy jsou dozdobeny různými aplikacemi.
-
-                    Organtinová mašlička, imitace štrasu, síťová krajka, mašličky, krajka.
-
-                    Výška cca 18cm, průměr cca 25cm.
-                </p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 vyrobek">
-                <h3 class="title">Košíček s látkovými květy</h3>
-                <img class="image" src="http://img.flercdn.net/products/7/7/77318/3/2/9/6586923/qtycozzorjysrt-b.jpg" />
-                <p class="descrition">
-                    Proutěný košíček plný látkových květů, s bavlněnou krajkou.
-
-                    Květy jsou ručně šité, středy jsou dozdobeny různými aplikacemi.
-
-                    Organtinová mašlička, imitace štrasu, síťová krajka, mašličky, krajka.
-
-                    Výška cca 18cm, průměr cca 25cm.
-                </p>
-            </div>
+            
         </article>
 
-        <div class="col-md-1"></div>
+        <div class="clearfix"></div>
     </div>
 
     <footer>
         <img class="fler" src="http://www.fler.cz/ui/img/logo_fler_top_2015.svg" width="80" />
     </footer>
+
+    <!-- Full screen gallery -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip">
+                        <!-- <a href="#" class="pswp__share--facebook"></a>
+                        <a href="#" class="pswp__share--twitter"></a>
+                        <a href="#" class="pswp__share--pinterest"></a>
+                        <a href="#" download class="pswp__share--download"></a> -->
+                    </div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="gallery/photoswipe/photoswipe.js" async="async"></script>
+    <script src="gallery/photoswipe/photoswipe-ui-default.js" async="async"></script>
+    <script src="gallery/photogallery.js" async="async"></script>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
