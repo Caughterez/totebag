@@ -1,2 +1,13 @@
 ﻿body {
 }
+
+header {
+    background: brown;
+    height: 100px;
+}
+
+#logo{
+    background: blue;
+    height: 80px;
+    width: 800px;   
+}
