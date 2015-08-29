@@ -6,16 +6,28 @@ header {
     height: 100px;
 }
 
-#logo{
+#logo {
     background: blue;
     height: 80px;
-    width: 800px;   
+    width: 800px;
 }
 
 .vyrobek {
-    background: red;
+    background: lightgoldenrodyellow;
     height: auto;
     margin: 5px;
-    min-height: 80px;
-    max-height: 120px
+    height: 300px;
 }
+
+    .vyrobek h3 {
+        font-size: 20px;
+    }
+
+    .vyrobek img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .vyrobek .descrition {
+        display: none;
+    }
