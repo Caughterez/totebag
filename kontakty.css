@@ -1,6 +1,7 @@
 ﻿body {
 }
 
+
 header {
     background: #5D403A;
     height: 180px;
@@ -33,68 +34,18 @@ menu ul {
     min-height: 410px;
 }
 
-.vyrobek {
-    margin: 5px;
-    border: solid #5D403A 1px;
-    height: 210px;
-    width: 210px;
-    padding: 0;
-}
-
-    .vyrobek h3 {
-        display: none;
-    }
-
-    .vyrobek img {
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-    }
-
-    .vyrobek .image-1, .image-2, .image-3, .image-4 {
-        display: none;
-    }
-
-    .vyrobek .descrition {
-        display: none;
-    }
-
-
-#vyrobek-detail {
-    display: none;
-    font-family: 'Great Vibes', cursive;
-    color: #483f3d
-}
-
-#vyrobek-detail .title {
-        /*display: block;*/
-        font-size: 36px;
-    }
-
-    #vyrobek-detail .main-image {
-        height: 500px;
-        width: 500px;
-    }
-
-    #vyrobek-detail .image-1 img, .image-2 img, .image-3 img, .image-4 img {
-        width: 171px;
-        height: 116px;
-    }
-
-    #vyrobek-detail .descrition {
-        font-size: 20px;
-        font-family: 'Slabo 27px', serif;
-}
-
 footer {
     width: 100%;
     height: 68px;
     background: #5D403A;
-    color:white;
     font-size:14px;
     font-family: 'Slabo 27px', serif;
-  
+    color:white;
+    
+
 }
+
+
     footer img.fler {
         width: 80px;
         height: auto;
@@ -112,4 +63,15 @@ footer {
         footer a:hover {
             color: #fc5d2e;
         }
-        
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size:30px;
+    color: #483f3d
+}
+article ul{
+     
+    font-family: 'Slabo 27px', serif;
+    font-size: 14px;
+    color: #483f3d
+}
