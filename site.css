@@ -17,17 +17,23 @@ header {
 menu ul {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
+    margin-left: 0;
 }
 
-    menu ul li a {
-        color: #5D403A;
+    menu ul li {
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
 
-        menu ul li a:hover, menu ul li a:focus {
-            color: #F33A03;
-            background: none;
-            background-color: white !important;
+        menu ul li a {
+            color: #5D403A;
         }
+
+            menu ul li a:hover, menu ul li a:focus {
+                color: #F33A03;
+                background: none;
+                background-color: white !important;
+            }
 
 .container-fluid {
     min-height: 600px;
@@ -65,7 +71,7 @@ menu ul {
     font-family: 'Great Vibes', cursive;
 }
 
-#vyrobek-detail .title {
+    #vyrobek-detail .title {
         /*display: block;*/
         font-size: 36px;
     }
@@ -82,7 +88,7 @@ menu ul {
 
     #vyrobek-detail .descrition {
         font-size: 28px;
-}
+    }
 
 footer {
     width: 100%;
@@ -99,8 +105,7 @@ footer {
 
     footer a {
         color: white;
-        margin:150px;
-        
+        margin: 150px;
     }
 
         footer a:hover {
