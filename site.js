@@ -1,4 +1,6 @@
 ﻿window.onpopstate = function () {
+    //$('#vyrobky').toggle();
+    //$('#vyrobek-detail').toggle();
     if (location.search !== '?detail') {
         location.reload();
     }
@@ -7,7 +9,7 @@
 $(".vyrobek").click(function () {
     var vyrobek = $(this);
     var detailVyrobku = $('#vyrobek-detail');
-    var vyrobky = $('.vyrobky');
+    var vyrobky = $('#vyrobky');
 
     var nadpisVyrobku = vyrobek.find('.title').text();
     detailVyrobku.find('.title').text(nadpisVyrobku);

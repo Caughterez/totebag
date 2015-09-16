@@ -21,8 +21,8 @@ menu ul {
 }
 
     menu ul li {
-        padding-left: 0!important;
-        padding-right: 0!important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
         menu ul li a {
@@ -69,7 +69,7 @@ menu ul {
 #vyrobek-detail {
     display: none;
     font-family: 'Great Vibes', cursive;
-    color: #483f3d
+    color: #483f3d;
 }
 
     #vyrobek-detail .title {
@@ -88,24 +88,19 @@ menu ul {
     }
 
     #vyrobek-detail .descrition {
-<<<<<<< HEAD
-        font-size: 28px;
-    }
-=======
         font-size: 20px;
         font-family: 'Slabo 27px', serif;
-}
->>>>>>> parent of c2d08f3... Revert "nové stránky"
+    }
 
 footer {
     width: 100%;
     height: 68px;
     background: #5D403A;
-    color:white;
-    font-size:14px;
+    color: white;
+    font-size: 14px;
     font-family: 'Slabo 27px', serif;
-  
 }
+
     footer img.fler {
         width: 80px;
         height: auto;
@@ -114,20 +109,11 @@ footer {
 
     footer a {
         color: white;
-<<<<<<< HEAD
         margin: 150px;
-=======
-        margin:150px;
-        font-size:14px;
+        font-size: 14px;
         font-family: 'Slabo 27px', serif;
-        
->>>>>>> parent of c2d08f3... Revert "nové stránky"
     }
 
         footer a:hover {
             color: #fc5d2e;
         }
-<<<<<<< HEAD
-=======
-        
->>>>>>> parent of c2d08f3... Revert "nové stránky"
