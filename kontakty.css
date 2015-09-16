@@ -1,0 +1,77 @@
+﻿body {
+}
+
+
+header {
+    background: #5D403A;
+    height: 180px;
+}
+
+    header img {
+        height: 180px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+menu ul {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+    menu ul li a {
+        color: #5D403A;
+    }
+
+        menu ul li a:hover, menu ul li a:focus {
+            color: #F33A03;
+            background: none;
+            background-color: white !important;
+        }
+
+.container-fluid {
+    min-height: 410px;
+}
+
+footer {
+    width: 100%;
+    height: 68px;
+    background: #5D403A;
+    font-size:14px;
+    font-family: 'Slabo 27px', serif;
+    color:white;
+    
+
+}
+
+
+    footer img.fler {
+        width: 80px;
+        height: auto;
+        margin: 5px 50px;
+    }
+
+    footer a {
+        color: white;
+        margin:150px;
+        font-size:14px;
+        font-family: 'Slabo 27px', serif;
+        
+    }
+
+        footer a:hover {
+            color: #fc5d2e;
+        }
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size:30px;
+    color: #483f3d
+}
+article ul{
+     
+    font-family: 'Slabo 27px', serif;
+    font-size: 14px;
+    color: #483f3d
+}
