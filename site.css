@@ -39,6 +39,10 @@ menu ul {
     min-height: 410px;
 }
 
+#vyrobky, #o-nas, #nas-pribeh, #kontakty {
+    display: none;
+}
+
 .vyrobek {
     margin: 5px;
     border: solid #5D403A 1px;
@@ -91,6 +95,10 @@ menu ul {
         font-size: 20px;
         font-family: 'Slabo 27px', serif;
     }
+
+#photo-gallery {
+    overflow: hidden;
+}
 
 footer {
     width: 100%;
